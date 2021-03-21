@@ -198,9 +198,6 @@ img {
 
 /* section */
 /* advantages */
-.advantages-container {
-  padding-top: 94px;
-}
 
 .advantages {
   display: flex;
@@ -244,6 +241,9 @@ img {
   color: var(--secondary-text-color);
 }
 /* about-work */
+.work.section {
+  padding-top: 0;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
