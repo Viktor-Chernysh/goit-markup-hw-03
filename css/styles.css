@@ -277,7 +277,7 @@ img {
   padding-top: 30px;
 }
 .about-team {
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .team {
@@ -370,6 +370,9 @@ address {
   flex-direction: column;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer-contact-information li {
+  padding-bottom: 9px;
 }
 
 .footer {
