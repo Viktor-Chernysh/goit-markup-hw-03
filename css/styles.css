@@ -276,6 +276,9 @@ img {
 .about-team .content {
   padding-top: 30px;
 }
+.about-team {
+  padding-top: 50px;
+}
 
 .team {
   background-color: var(--primary-button-color);
@@ -298,14 +301,19 @@ img {
 .about-team .paragraph {
   margin-top: 10px;
 
-  margin-bottom: 0;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   color: var(--secondary-text-color);
 }
 .about-team .item {
   --grid-item: 4;
-  widows: 270px;
+  width: 270px;
+  background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+.about-team .grid-item:nth-child(-n + 4) {
+  margin-top: 0;
 }
 /*Portfolio work-examples */
 .work-examples .item-description {
